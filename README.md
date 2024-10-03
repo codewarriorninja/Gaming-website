@@ -66,6 +66,6 @@ Tailwind CSS
 React Icons
 
 
-![Hero](/src/assets/Images/Hero.png)
-![Cards](/src/assets/Images/cards.png)
-![Testimonials](/src/assets/Images/Testimonial.png)
+![Hero](./src/assets/Images/Hero.png)
+![Cards](./src/assets/Images/cards.png)
+![Testimonials](./src/assets/Images/Testimonial.png)
