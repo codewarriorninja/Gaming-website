@@ -1,13 +1,13 @@
-# React + TypeScript + Vite
+<!-- # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Currently, two official plugins are available: -->
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+<!-- ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
@@ -46,9 +46,9 @@ export default tseslint.config({
     ...react.configs.recommended.rules,
     ...react.configs['jsx-runtime'].rules,
   },
-})
+}) -->
 
-##Gaming Website Landing Page
+# Gaming-website
 
 This is a fully responsive gaming website landing page built using React, TypeScript, and Tailwind CSS, with React Icons for iconography. The website is designed to provide a modern, sleek, and dynamic interface for gaming enthusiasts.
 
@@ -65,6 +65,6 @@ TypeScript
 Tailwind CSS
 React Icons
 
-![Hero](./src/assets/Images/Screenshot 2024-10-03 092450.png)
-![Cards](./src/assets/Images/Screenshot 2024-10-03 092521.png)
-![Testimonials](./src/assets/Images/Screenshot 2024-10-03 092547.png)
+![Hero](/src/assets/Images/Screenshot 2024-10-03 092450.png)
+![Cards](/src/assets/Images/Screenshot 2024-10-03 092521.png)
+![Testimonials](/src/assets/Images/Screenshot 2024-10-03 092547.png)
