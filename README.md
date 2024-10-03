@@ -65,6 +65,6 @@ TypeScript
 Tailwind CSS
 React Icons
 
-![Hero](/src/assets/Images/Screenshot 2024-10-03 092450.png)
-![Cards](/src/assets/Images/Screenshot 2024-10-03 092521.png)
-![Testimonials](/src/assets/Images/Screenshot 2024-10-03 092547.png)
+![My Hero](./src/assets/Images/Hero.png)
+![My Hero](./src/assets/Images/cards.png)
+![My Hero](./src/assets/Images/Testimonial.png)
