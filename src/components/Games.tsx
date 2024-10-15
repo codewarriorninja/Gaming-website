@@ -1,4 +1,3 @@
-
 import { games, platforms } from "../constant/Constant"
 import { useState } from "react"
 import GameCard from "./GameCard";
@@ -15,8 +14,8 @@ const Games:React.FC = () => {
       <div className="relative z-10 max-w-6xl mx-auto p-4">
          <h1 className="text-center font-bold text-white text-lg md:text-3xl lg:text-4xl">Newly Released Games</h1>
          <div className="flex justify-center space-x-4 my-8">
-           {platforms.map((platformd,index) => (
-            <button key={index} className={`px-4 py-2 rounded ${selectedPlatfrom === platformd.name ? 'bg-orange-500' :'bg-gray-600'} text-white`} onClick={() => setSelectedPlatform(platformd.name)}>{platformd.name}</button>
+           {platforms.map((platform,index) => (
+            <button key={index} className={`px-4 py-2 rounded ${selectedPlatfrom === platform.name ? 'bg-orange-500' :'bg-gray-600'} text-white`} onClick={() => setSelectedPlatform(platform.name)}>{platform.name}</button>
            ))}
          </div>
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

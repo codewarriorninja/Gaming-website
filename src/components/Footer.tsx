@@ -53,8 +53,8 @@ const Footer:React.FC = () => {
               <FaInstagram className="text-[#5F627E] text-xl" />
             </div>
         </div>
-        <a className="text-center text-lg text-white font-semibold" href="https://www.figma.com/design/EbFCZP6TKWhzYcgumCpE72/Gaming-website-sample-(Community)?node-id=0-1&node-type=canvas&t=cGCxg18imh3Zwmya-0"><h1 className="mt-10">Inspired By Figma</h1></a>
-        <a className="text-center text-lg text-white font-semibold" href="https://www.figma.com/design/EbFCZP6TKWhzYcgumCpE72/Gaming-website-sample-(Community)?node-id=0-1&node-type=canvas&t=cGCxg18imh3Zwmya-0"><h1 className="mt-3">Develop By Henok Aragaw</h1></a>
+        <a className="text-center text-lg text-white font-semibold" href="https://www.figma.com/design/EbFCZP6TKWhzYcgumCpE72/Gaming-website-sample-(Community)?node-id=0-1&node-type=canvas&t=cGCxg18imh3Zwmya-0" target="_blank"><h1 className="mt-10">Inspired By Figma</h1></a>
+        <a className="text-center text-lg text-white font-semibold" href="https://github.com/codewarriorninja" target="_blank"><h1 className="mt-3">Develop By Henok Aragaw</h1></a>
       </div>
     </section>
   )

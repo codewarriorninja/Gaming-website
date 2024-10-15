@@ -4,8 +4,8 @@ import { heroContent, Images } from "../constant/Constant"
 const Hero:React.FC = () => {
     const [currentImage, setCurrentImage] = useState<number>(0)
     
-    useEffect(() =>{
-        const interval = setInterval(() =>{
+    useEffect(() => {
+        const interval = setInterval(() => {
             setCurrentImage((prevImage) => (prevImage + 1 ) % Images.length);
         },1000)
          
@@ -15,14 +15,14 @@ const Hero:React.FC = () => {
     <section className='relative min-h-screen bg-cover bg-center duration-1000 ease-in-out overflow-hidden'>
       <div className="absolute inset-0 bg-black opacity-50">
         {Images.map((image,index) =>(
-            <div key={index} className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentImage ? 'opacity-100 z-10' :'opacity-0'} `} style={{backgroundImage:`url(${image.src})`, backgroundSize:'cover', backgroundPosition:'center'}}></div>
+            <div key={index} className={`absolute inset-0 w-full min-h-screen transition-opacity duration-1000 ease-in-out ${index === currentImage ? 'opacity-100 z-10' :'opacity-0'} `} style={{backgroundImage:`url(${image.src})`, backgroundSize:'cover', backgroundPosition:'center'}}></div>
         ))}
       </div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
         <div className="flex items-end space-x-1 md:space-x-2">
           <div className="h-1 w-14 bg-white rounded-lg"></div>
           <h1 className="text-sm text-nowrap">GAMEWORLD DISTRIBUTORS</h1>
-          <div className="h-1 w-14 bg-white rounded-lg"></div>
+          <div className="h-1 w-14 bg-white rounded-lg"></div> 
         </div>
         {heroContent.map((hero,index) => (
             <div key={index} className="py-3">
